@@ -204,7 +204,6 @@
 
 // export default App;
 
-//gerageza auto increment and now it is working
 
 import "./style.css";
 import React, { useState } from "react";
