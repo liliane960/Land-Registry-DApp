@@ -22,6 +22,7 @@ describe("LandRegistry", function () {
     expect(land.isRegistered).to.be.true;
   });
 
+  
   it("should transfer ownership", async function () {
     await landRegistry.registerLand(1, "Kigali", 500, addr1.address);
     await landRegistry.transferLandOwnership(1, owner.address);
