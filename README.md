@@ -11,7 +11,7 @@
 •	Styling: Custom CSS
 ## Installation & Setup
 •	1. Clone the repository
-•	git clone https://github.com/your-username/land-registry-dapp.git
+•	git clone https://github.com/liliane960/Land-Registry-DApp.git
 •	cd land-registry-dapp
 •	
 •	2. Install dependencies
