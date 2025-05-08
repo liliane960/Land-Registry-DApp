@@ -22,18 +22,18 @@
 •	cd frontend
 •	npm install
 •	
-•	3. Compile and deploy the smart contract
+## Compile and deploy the smart contract
 •	npx hardhat compile
 •	npx hardhat node
-•	npx hardhat run scripts/deploy.js --network localhost
+    npx hardhat run scripts/deploy.js --network localhost
 •	
-•	4. Run the React frontend
+# Run the React frontend
 •	cd frontend
 •	npm start
- Security
+ # Security
 •	Only contract owner can register land.
 •	Transfers allowed only by current owner.
 •	Transparent history on blockchain.
-Developed by
+# Developed by
 Liliane Ishimwe
 Blockchain Technology 
