@@ -15,10 +15,10 @@
 •	cd land-registry-dapp
 •	
 •	2. Install dependencies
-•	# For smart contract environment
+## For smart contract environment
 •	npm install --save-dev hardhat
 •	
-•	# For frontend (in frontend/ directory)
+# For frontend (in frontend/ directory)
 •	cd frontend
 •	npm install
 •	
@@ -35,5 +35,5 @@
 •	Transfers allowed only by current owner.
 •	Transparent history on blockchain.
 Developed by
-•	Liliane Ishimwe
-•	Blockchain Technology 
+Liliane Ishimwe
+Blockchain Technology 
