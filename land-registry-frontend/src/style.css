@@ -1,0 +1,70 @@
+/* style.css - Single Line Button Navigation */
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #abddea; /* Deep navy background */
+  color: #01060c; /* Light gray text */
+}
+
+/* Button Container - Forces single line */
+.button-row {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  gap: 8px;
+  padding: 12px 0;
+  margin-bottom: 20px;
+  scrollbar-width: none; /* Hide scrollbar Firefox */
+}
+
+.button-row::-webkit-scrollbar {
+  display: none; /* Hide scrollbar Chrome/Safari */
+}
+
+/* Button Styles */
+button {
+  padding: 12px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #1e293b; /* Dark gray */
+  color: #f8fafc; /* White text */
+  flex: 0 0 auto; /* Prevent button shrinking */
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #334155; /* Lighter gray */
+}
+
+/* Primary Action Buttons */
+button.primary {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+}
+
+button.primary:hover {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+}
+
+/* Danger Button */
+button.danger {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+}
+
+button.danger:hover {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+}
+
+/* Active Tab Button */
+button.active {
+  background: #3b82f6;
+  color: white;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
