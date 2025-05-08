@@ -4,8 +4,8 @@ async function main() {
   const LandRegistry = await hre.ethers.getContractFactory("LandRegistry");
   const landRegistry = await LandRegistry.deploy(); // This already deploys the contract
 
-  // ❌ Remove: await landRegistry.deployed();
-  // ✅ Instead, optionally wait for the transaction to be mined:
+  //  Remove: await landRegistry.deployed();
+ 
   await landRegistry.waitForDeployment(); // New in ethers v6
 
   console.log("LandRegistry deployed to:", await landRegistry.getAddress());
